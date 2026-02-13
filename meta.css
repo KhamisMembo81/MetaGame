@@ -1,0 +1,36 @@
+header{
+  background-color: rgb(32, 32, 31);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  line-height: 10px;
+  color: white;
+}
+button{
+  background-color: black;
+  color: white;
+  border: 10px;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: Arial, sans-serif; 
+  }
+img{
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+h1{
+  text-decoration: underline overline;
+  text-decoration-color: rgb(0, 0, 0);
+}
+h2{
+  text-decoration: underline;
+  text-decoration-color: rgb(0, 0, 0);
+}
+body{
+  background-color: rgb(80, 79, 76);
+}
