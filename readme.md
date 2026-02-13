@@ -2,7 +2,7 @@
 MetaGame is a comprehensive digital platform designed for gamers seeking to elevate every aspect of their gaming experience. Built by gamers, for gamers.
 
 ## LIVE LINK:
-
+https://khamismembo81.github.io/MetaGame/
  
 ## About
 MetaGame offers intelligent hardware guides for optimal setup performance, science-backed resources for physical and mental wellness to enhance both gameplay and wellbeing, and strategic investment insights into the gaming economy - all in one integrated hub.
