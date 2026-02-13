@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title></title>
+</head>
+<body>
+   <header>
+    <h1>MetaGame</h1>
+    <img src="./images/LogoArchive Shop.jpg" alt="logo" height="100">
+    <nav>
+      <button><a href="index.html" target="_blank">HOME</a></button>
+      <button><a href="meta.html">MetaIntelligence</a></button>
+    </nav>
+  </header>
+  <main>
+  <section>
+      <div class="wrapper">
+
+       
+        <div class="logo-area">
+            <h1>Gamer Quests</h1>
+            <span class="badge">Quest log</span>
+        </div>
+
+        <div class="input-panel">
+            <div class="field">
+                <label>Game Name</label><br>
+                <input type="text" id="gameInput" placeholder="e.g. Roblox" autocomplete="off"><br>
+            </div>
+            <div class="field">
+                <label>Task / Objective</label><br>
+                <input type="text" id="taskInput" placeholder="Defeat Radahn,"><br>
+            </div>
+            <div class="field">
+                <label>Priority</label><br>
+                <select id="prioritySelect" class="priority-select">
+                    <option value="High">High</option>
+                    <option value="Medium" selected>Medium</option>
+                    <option value="Low">Low</option>
+                </select><br>
+            </div>
+            <div class="field">
+                <label>Time (deadline)</label><br>
+                <input type="text" id="timeInput" placeholder="20:00, weekend"><br>
+            </div>
+            <button class="btn" id="addQuestBtn">
+                 Add quest
+            </button>
+        </div>
+
+        <div class="address-header">
+            <h2>Quest Progress</h2>
+            <span id="questCounter" class="counter-badge"> 0 Entries</span>
+        </div>
+
+        <!-- ============ QUEST GRID – CARDS INJECTED BY JS ============ -->
+        <div id="questContainer" class="quest-grid"></div>
+
+        <!-- ============ EMPTY STATE MESSAGE ============ -->
+        <div id="emptyMessage" class="empty-message">
+            
+             No quests yet. Add your first gamer task!
+        </div>
+    </div>
+
+    <!-- ============ SEPARATE JAVASCRIPT FILE ============ -->
+    <script src="script.js"></script>
+  </section>
+  </main>
+</body>
+</html>
